@@ -8,7 +8,7 @@ $result=mysqli_query($conn,$sql);
     $post=mysqli_fetch_assoc($result);
 }
 ?>
-<div class="container well span6">
+<div class="clearfix container">
 	<div class="row">
         
         
