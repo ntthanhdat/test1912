@@ -21,10 +21,10 @@ include('config.php');
                 </div>
                 <div class="form-group">
                   <label for="">Giới tính</label><br>
-                  <input type="radio" id="male" name="gender" value="male">
-                    <label for="male">Male</label><br>
-                    <input type="radio" id="female" name="gender" value="female">
-                    <label for="female">Female</label><br>
+                  <input type="radio" id="male" name="gender" value="nam">
+                    <label for="male">Nam</label><br>
+                    <input type="radio" id="female" name="gender" value="nữ">
+                    <label for="female">Nữ</label><br>
                 </div>
                 <div class="form-group">
                   <label for="">Số điện thoại</label><br>
@@ -45,14 +45,14 @@ include('config.php');
                 <!-- Nhom mau -->
                 <div class="form-group">
                     <label for=""> Nhóm máu</label>
-                    <select name="blood" id="">
+                    <select name="blood" class="form-control"  id="">
                         <option value="A">A</option>
                         <option value="B">B</option>
-                        <option value="C">C</option>
+                        <option value="O">O</option>
                     </select>
                 </div>
                 
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Lưu</button>
             </form>
             
         </div>

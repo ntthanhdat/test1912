@@ -27,6 +27,7 @@
                           <th>Nhóm máu</th>
                           <th>Ngày lập sổ</th>
                           <th>Ngày cập nhật</th>
+                          <th>Xem chi tiết</th>
                           <th>Sửa</th>
                           <th>Xóa</th>
                       </tr>
@@ -47,6 +48,7 @@
                               echo '<td scope="row">'.$post[9].'</td>';
                               echo '<td scope="row">'.$post[10].'</td>';
                               echo '<td scope="row">'.$post[11].'</td>';
+                              echo '<td> <a href="display.php?id='.$post[0].'"> <i class="fas fa-file-alt"></i></td>';
                               echo '<td> <a href="edit.php?id='.$post[0].'"> <i class="far fa-edit"></i></td>';
                               echo '<td> <a href="delete.php?id='.$post[0].'"> <i class="fas fa-trash-alt"></i></td>';
                               echo '</tr>';

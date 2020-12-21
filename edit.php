@@ -54,14 +54,14 @@ $result=mysqli_query($conn,$sql);
                 <!-- Nhom mau -->
                 <div class="form-group">
                     <label for=""> Nhóm máu</label>
-                    <select name="blood" id="" value="<?php echo $post['BloodGroup'] ?>">
+                    <select name="blood" id="" class="form-control"  value="<?php echo $post['BloodGroup'] ?>">
                         <option value="A">A</option>
                         <option value="B">B</option>
-                        <option value="C">C</option>
+                        <option value="O">O</option>
                     </select>
                 </div>
                 
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Lưu</button>
             </form>
             
         </div>
