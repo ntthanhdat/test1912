@@ -4,6 +4,7 @@
     <title>Thông tin bệnh nhân</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+    <link href="https://moh.gov.vn/byt-theme/images/favicon.ico" rel="Shortcut Icon">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
