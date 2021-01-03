@@ -31,21 +31,21 @@ $total_pages = ceil($total_rows / $no_of_records_per_page);
                 ?>
                 <thead class="thead-inverse">
                     <tr>
-                        <th>Mã bệnh nhân</th>
-                        <th>Tên</th>
-                        <th>Họ</th>
-                        <th>Ngày sinh</th>
-                        <th>giới tính</th>
-                        <th>Số điện thoại</th>
-                        <th >Email</th>
-                        <th>Chiều cao</th>
-                        <th>Cân nặng</th>
-                        <th>Nhóm máu</th>
-                        <th>Ngày lập sổ</th>
-                        <th>Ngày cập nhật</th>
-                        <th>Xem chi tiết</th>
-                        <th>Sửa</th>
-                        <th>Xóa</th>
+                        <th id="ID">Mã bệnh nhân</th>
+                        <th id="lname">Tên</th>
+                        <th id="fname">Họ</th>
+                        <th id="dateofbirth">Ngày sinh</th>
+                        <th id="gender">giới tính</th>
+                        <th id="phone">Số điện thoại</th>
+                        <th id="email">Email</th>
+                        <th id="height">Chiều cao</th>
+                        <th id="weight">Cân nặng</th>
+                        <th id="blood">Nhóm máu</th>
+                        <th id="creat">Ngày lập sổ</th>
+                        <th id="mod">Ngày cập nhật</th>
+                        <th id="view">Xem chi tiết</th>
+                        <th id="edit">Sửa</th>
+                        <th id="delete">Xóa</th>
                     </tr>
                 </thead>
                 <tbody>

@@ -36,6 +36,16 @@
             <a class="dropdown-item" href="upload.php">Nhập file</a>
           </div>
         </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="lang">Ngôn ngữ</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownId">
+          <div class="langWrap">
+          <a href="#" language="english" class="active">eng</a>
+          <a href="#" language="vietnamese">vi</a>
+          <a href="#" language="japanese">japanese</a>
+          </div>
+        </div>
+        </li>
 
       </ul>
       <form class="form-inline my-2 my-lg-0" action="search.php" method="get">
@@ -47,4 +57,5 @@
             <a name="" id="" class="btn btn-outline-success my-2 my-sm-0 mr-3" href="../index.php" role="button">Exit</a>
             </div> -->
     </div>
+    
   </nav>
