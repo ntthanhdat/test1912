@@ -16,6 +16,7 @@ $total_pages = ceil($total_rows / $no_of_records_per_page);
 
 ?>
 <div class="container">
+<p id="demo">a</p>
     <div class="row">
         <div class="col">
             <table class="table table-striped table-inverse table-responsive">
@@ -31,21 +32,21 @@ $total_pages = ceil($total_rows / $no_of_records_per_page);
                 ?>
                 <thead class="thead-inverse">
                     <tr>
-                        <th id="ID">Mã bệnh nhân</th>
-                        <th id="lname">Tên</th>
-                        <th id="fname">Họ</th>
-                        <th id="dateofbirth">Ngày sinh</th>
-                        <th id="gender">giới tính</th>
-                        <th id="phone">Số điện thoại</th>
-                        <th id="email">Email</th>
-                        <th id="height">Chiều cao</th>
-                        <th id="weight">Cân nặng</th>
-                        <th id="blood">Nhóm máu</th>
-                        <th id="creat">Ngày lập sổ</th>
-                        <th id="mod">Ngày cập nhật</th>
-                        <th id="view">Xem chi tiết</th>
-                        <th id="edit">Sửa</th>
-                        <th id="delete">Xóa</th>
+                        <th class="tran" id="ID">Mã bệnh nhân</th>
+                        <th class="tran" id="lname">Tên</th>
+                        <th class="tran" id="fname">Họ</th>
+                        <th class="tran" id="dateofbirth">Ngày sinh</th>
+                        <th class="tran" id="gender">giới tính</th>
+                        <th class="tran" id="phone">Số điện thoại</th>
+                        <th class="tran" id="email">Email</th>
+                        <th class="tran" id="height">Chiều cao</th>
+                        <th class="tran" id="weight">Cân nặng</th>
+                        <th class="tran" id="blood">Nhóm máu</th>
+                        <th class="tran" id="creat">Ngày lập sổ</th>
+                        <th class="tran" id="mod">Ngày cập nhật</th>
+                        <th class="tran" id="view">Xem chi tiết</th>
+                        <th class="tran" id="edit">Sửa</th>
+                        <th class="tran" id="delete">Xóa</th>
                     </tr>
                 </thead>
                 <tbody>

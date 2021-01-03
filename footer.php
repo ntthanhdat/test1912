@@ -34,19 +34,25 @@
     <script>
       
       const langEl=document.querySelector('.langWrap');
-        const link=document.querySelectorAll('a');
-        const title=document.querySelector('.title');
-        const greeting=document.querySelector('.greeting');
+        const link=document.querySelectorAll('.lang-a');
+        const add_tab=document.querySelector('#add');
+        const lang=document.querySelector('#lang');
         link.forEach(el =>{
             el.addEventListener('click', ()=>{
                 langEl.querySelector('.active').classList.remove('active');
                 el.classList.add('active');
-                const attr=el.getAttribute('language');
-                title.textContent=data[attr].title;
-                greeting.textContent=data[attr].greeting;
+                 const attr=el.getAttribute('language');
+                var tran=document.querySelectorAll('.tran');
+                tran.forEach(ji =>{
+                  var mean=ji.getAttribute('id');
+                  var chad =mean;
+                  ji.textContent= data[attr][mean];
+                  document.getElementById("demo").textContent =data[attr][mean];
+                });
             });
         });
         
     </script>
+</script>
   </body>
 </html>

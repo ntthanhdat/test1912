@@ -2,6 +2,8 @@ var data = {
     "english": {
         "lang": "Language",
         "list": "List of patient",
+        "import-form": "Import by form",
+        "import-file": "Import by file",
         "add": "Add patients",
         "ID": "Patient ID",
         "fname": "Fisrt Name",
@@ -17,10 +19,15 @@ var data = {
         "mod": "Modified On",
         "view": "View Detail",
         "edit": "Edit",
-        "delete": "Delete"
+        "delete": "Delete",
+        "search": "Search"
     },
     "vietnamese": {
         "lang": "Ngôn ngữ",
+        "list": "Danh sách bệnh nhân",
+        "import-form": "Nhập từ form",
+        "import-file": "Nhập từ file",
+        "add": "Thêm bệnh nhân",
         "ID": "Mã bệnh nhân",
         "lname": "Tên",
         "fname": "Họ",
@@ -36,10 +43,13 @@ var data = {
         "view": "Xem chi tiết",
         "edit": "Sửa",
         "delete": "Xóa",
+        "search":"Tìm kiếm"
     },
     "japanese": {
-        "lang": "日本語",
+        "lang": "言語",
         "list": "患者一覧",
+        "import-form": "フォームから追加",
+        "import-file": "ファイルから追加",
         "add": "患者追加",
         "ID": "患者 ID",
         "fname": "名字",
@@ -55,6 +65,7 @@ var data = {
         "mod": "変更日",
         "view": "詳細を表示",
         "edit": "編集",
-        "delete": "削除"
+        "delete": "削除",
+        "search": "検索"
     }
 }
